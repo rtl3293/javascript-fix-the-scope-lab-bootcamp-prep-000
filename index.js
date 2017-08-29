@@ -21,9 +21,10 @@ function add2(n) {
 }
 
 function funkyFunction() {
-  function Funky() {
+  function funky() {
     return "FUNKY!"
   }
+  return funky()
 }
 
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
