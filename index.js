@@ -25,7 +25,7 @@ function funkyFunction() {
     return "FUNKY!"
   }
   funky()
-  return funky
+  theFunk = funky
 }
 
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
